@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             x:Class="IdVerificationSampleApp.MainPage">
+    <StackLayout
+        Spacing="12"
+        Padding="24"
+        VerticalOptions="FillAndExpand">
+        <Label
+            Text="Sample Application"
+            FontSize="Large"
+            HorizontalTextAlignment="Center" />
+        <Label
+            Text="365id Id Verification SDK"
+            FontSize="Title"
+            HorizontalTextAlignment="Center" />
+        <Button
+            x:Name="button"
+            Text="Enter 365id SDK"
+            Clicked="GetTokenAndStartSDK_Clicked" />
+        <ActivityIndicator
+            x:Name="activityIndicator"
+            IsRunning="False" />
+
+        <StackLayout
+            Spacing="4"
+            Padding="24"
+            VerticalOptions="CenterAndExpand">
+            <Label
+                Text="Transaction Id:"
+                FontSize="Small"
+                HorizontalTextAlignment="Center" />
+            <Label
+                x:Name="lblResultTransactionId"
+                Text="-"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,12" />
+
+            <Label
+                Text="Status:"
+                FontSize="Small"
+                HorizontalTextAlignment="Center" />
+            <Label
+                x:Name="lblResultStatus"
+                Text="-"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,12" />
+
+            <Label
+                Text="Assessment:"
+                FontSize="Small"
+                HorizontalTextAlignment="Center" />
+            <Label
+                x:Name="lblResultAssessment"
+                Text="-"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,12" />
+
+            <Label
+                Text="User Message:"
+                FontSize="Small"
+                HorizontalTextAlignment="Center" />
+            <Label
+                x:Name="lblResultUserMessage"
+                Text="-"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,12" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
