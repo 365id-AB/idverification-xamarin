@@ -40,8 +40,8 @@ For more information about the SDK's integration, system flows, validation of re
 
 ## NuGet packages
 The 365id Id Verification SDK is distributed as NuGet packages.
-- Android SDK: [IdVerification.Xamarin.Android.SDK](https://www.nuget.org/packages/IdVerification.Xamarin.Android.SDK)
-- iOS SDK: [IdVerification.Xamarin.iOS.SDK](https://www.nuget.org/packages/IdVerification.Xamarin.iOS.SDK)
+- Android SDK: [365id.IdVerification.Xamarin.Android.SDK](https://www.nuget.org/packages/365id.IdVerification.Xamarin.Android.SDK)
+- iOS SDK: [365id.IdVerification.Xamarin.iOS.SDK](https://www.nuget.org/packages/365id.IdVerification.Xamarin.iOS.SDK)
 
 <br/>
 <br/>
@@ -50,10 +50,10 @@ The 365id Id Verification SDK is distributed as NuGet packages.
 ## Project setup
 
 ### Android project setup
-Install our [IdVerification.Xamarin.Android.SDK](https://www.nuget.org/packages/IdVerification.Xamarin.Android.SDK) in your Xamarin.Android project.
+Install our [365id.IdVerification.Xamarin.Android.SDK](https://www.nuget.org/packages/365id.IdVerification.Xamarin.Android.SDK) in your Xamarin.Android project.
 
 ### iOS project setup
-Install our [IdVerification.Xamarin.iOS.SDK](https://www.nuget.org/packages/IdVerification.Xamarin.iOS.SDK) in your Xamarin.iOS project.
+Install our [365id.IdVerification.Xamarin.iOS.SDK](https://www.nuget.org/packages/365id.IdVerification.Xamarin.iOS.SDK) in your Xamarin.iOS project.
 
 #### Add the NFC capability
 
