@@ -130,7 +130,7 @@
       <Version>13.0.2</Version>
     </PackageReference>
     <PackageReference Include="365id.IdVerification.Xamarin.iOS.SDK">
-      <Version>1.5.15</Version>
+      <Version>1.5.15.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -59,7 +59,7 @@
       <Version>13.0.2</Version>
     </PackageReference>
     <PackageReference Include="365id.IdVerification.Xamarin.Android.SDK">
-      <Version>1.1.2</Version>
+      <Version>1.1.2.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
