@@ -6,7 +6,7 @@ namespace IdVerificationSampleApp.Utils
     {
         public const string AppTitle = "365id Id Verification";
 
-        public const string AuthorizationAPIHost = "https://eu.customer.365id.com";
+        public const string AuthorizationAPIHost = "https://global-customer-frontend.365id.com";
 
         public const string SecureStorageAccessTokenKey = "AccessToken";
 
